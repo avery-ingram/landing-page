@@ -1,13 +1,6 @@
 'use client'
 
-import { useState } from 'react'
-import Image from 'next/image'
-import Modal from '@/components/utils/modal'
-import HeroImage from '@/public/images/hero-image-01.jpg'
-
 export default function Hero() {
-
-  const [videoModalOpen, setVideoModalOpen] = useState<boolean>(false)
 
   return (
     <section>
@@ -28,11 +21,6 @@ export default function Hero() {
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
               Plug our ai into your existing integrations and software and watch the magic happen.
             </p>
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-start">
-              <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
-              </div>
-            </div>
           </div>
 
         </div>
